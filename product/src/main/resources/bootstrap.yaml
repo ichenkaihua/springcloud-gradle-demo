@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.80:8848
+      config:
+        server-addr: 192.168.10.80:8848
+    inetutils:
+      ignored-interfaces:
+        - .*VirtualBox.* #去除virtualBox虚拟机的ip
+        - .*VMware.* # 去除vmware虚拟机的ip
+        - .*WSL.* #去除wsl的ip

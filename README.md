@@ -1,0 +1,1 @@
+gradle构建springboot的最佳实践，使用了gradle的`platform`和`buildSrc`功能
